@@ -8,9 +8,6 @@
  * @copyright Copyright (c) 2022
  * 
  */
-
-// doxygen -g i mappen med filerna
-// doxygen i terminalen
 #include<iostream>
 #include<cstdlib>
 #include<iterator>
@@ -21,6 +18,10 @@
 #include<cstring>
 using namespace std;
 
+/**
+ * @brief 
+ * Flightclass containong booking information.
+ */
 class Flights
 {
 private:
@@ -236,6 +237,10 @@ class flightManager
     }
 };
 
+/**
+ * @brief 
+ * 
+ */
 class bookingManager
 {
     list<Bookings *> myBookings; // create a sample list of pointers to myBookings objects
@@ -283,6 +288,11 @@ class bookingManager
 class ticketManager
 {
     public:
+    /**
+     * @brief printing seat maps for each bookingclass using counters nfs, nbs and es.
+     * 
+     * @param myFlights 
+     */
     void seatMap(list<Flights *> myFlights)
     {
 
@@ -333,6 +343,10 @@ class ticketManager
     }
 
 
+    /**
+     * @brief Construct a new ticket Manager object
+     * 
+     */
     ticketManager(){}
     void canceledflights(list<Flights *> myFlights)
     {
@@ -348,7 +362,12 @@ class ticketManager
         }
     }
 
-
+/**
+ * @brief 
+ * Finds matching flight allocate seat and print flight and booking inoformation to ticket file.
+ * @param myFlights 
+ * @param myBookings 
+ */
     void matchseat(list<Flights *> myFlights, list<Bookings *> myBookings)
     {
         
@@ -408,6 +427,11 @@ class ticketManager
 
 
 
+/**
+ * @brief Main entry flighTickets.cpp 
+ * 
+ * @return int 
+ */
 
 int main()
 {   
