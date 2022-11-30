@@ -1,7 +1,0 @@
-Flight nr 304 06:30 is canceled
-Flight nr 304 07:30 is canceled
-Flight nr 304 08:30 is canceled
-Flight nr 304 09:30 is canceled
-Flight nr 306 06:30 is canceled
-Flight nr 310 07:30 is canceled
-Flight nr 312 07:30 is canceled

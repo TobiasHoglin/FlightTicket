@@ -1,0 +1,86 @@
+\hypertarget{_flights_8hh_source}{}\doxysection{Flights.\+hh}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{2 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#ifndef FLIGHTS\_CLASS}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#define FLIGHTS\_CLASS}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_flights}{Flights}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13 \textcolor{keywordtype}{int} flightno;}
+\DoxyCodeLine{14 \textcolor{keywordtype}{string} dep;}
+\DoxyCodeLine{15 \textcolor{keywordtype}{string} des;}
+\DoxyCodeLine{16 \textcolor{keywordtype}{string} datestr;}
+\DoxyCodeLine{17 \textcolor{keywordtype}{string} timestr;}
+\DoxyCodeLine{18 \textcolor{keywordtype}{int} nfs;}
+\DoxyCodeLine{19 \textcolor{keywordtype}{int} fs;}
+\DoxyCodeLine{20 \textcolor{keywordtype}{int} nbs;}
+\DoxyCodeLine{21 \textcolor{keywordtype}{int} bs;}
+\DoxyCodeLine{22 \textcolor{keywordtype}{int} nes;}
+\DoxyCodeLine{23 \textcolor{keywordtype}{int} es;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keyword}{public}:}
+\DoxyCodeLine{26     }
+\DoxyCodeLine{27     \mbox{\hyperlink{class_flights}{Flights}}()\{this-\/>fs = 0; this-\/>bs = 0; this-\/>es = 0;\}}
+\DoxyCodeLine{28     }
+\DoxyCodeLine{29     \textcolor{comment}{// setters}}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} set\_flightno(\textcolor{keywordtype}{int} flightno)\{this-\/>flightno = flightno;\}}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} set\_dep(\textcolor{keywordtype}{string} dep)\{this-\/>dep = dep;\}}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} set\_des(\textcolor{keywordtype}{string} des)\{this-\/>des = des;\}}
+\DoxyCodeLine{33     \textcolor{keywordtype}{void} set\_datestr(\textcolor{keywordtype}{string} datestr)\{ this-\/>datestr = datestr;\}}
+\DoxyCodeLine{34     \textcolor{keywordtype}{void} set\_timestr(\textcolor{keywordtype}{string} timestr)\{this-\/>timestr = timestr;\}}
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} set\_nfs(\textcolor{keywordtype}{int} nfs)\{this-\/>nfs = nfs*7;\}}
+\DoxyCodeLine{36     \textcolor{keywordtype}{void} set\_nbs(\textcolor{keywordtype}{int} nbs)\{this-\/>nbs = nbs*7;\}}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} set\_nes(\textcolor{keywordtype}{int} nes)\{this-\/>nes = nes*7;\}}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} increaseFs()}
+\DoxyCodeLine{39     \{}
+\DoxyCodeLine{40         this-\/>fs = fs+1;}
+\DoxyCodeLine{41     \}}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} increaseBs()}
+\DoxyCodeLine{43     \{}
+\DoxyCodeLine{44         this-\/>bs = bs+1;}
+\DoxyCodeLine{45     \}}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} increaseEs()}
+\DoxyCodeLine{47     \{}
+\DoxyCodeLine{48         this-\/>es = es+1;}
+\DoxyCodeLine{49     \}}
+\DoxyCodeLine{54     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_flights_a1949952c1fd532ae549a59575f397064}{get\_flightno}}()\{}
+\DoxyCodeLine{55         \textcolor{keywordflow}{return} flightno;}
+\DoxyCodeLine{56     \}}
+\DoxyCodeLine{57     \textcolor{keywordtype}{string} get\_dep()\{}
+\DoxyCodeLine{58         \textcolor{keywordflow}{return} dep;}
+\DoxyCodeLine{59     \}}
+\DoxyCodeLine{60     \textcolor{keywordtype}{string} get\_des()\{}
+\DoxyCodeLine{61         \textcolor{keywordflow}{return} des;}
+\DoxyCodeLine{62     \}}
+\DoxyCodeLine{63     \textcolor{keywordtype}{string} get\_datestr()\{}
+\DoxyCodeLine{64         \textcolor{keywordflow}{return} datestr;}
+\DoxyCodeLine{65     \}}
+\DoxyCodeLine{66     \textcolor{keywordtype}{string} get\_timestr()\{}
+\DoxyCodeLine{67         \textcolor{keywordflow}{return} timestr;}
+\DoxyCodeLine{68     \}}
+\DoxyCodeLine{69     \textcolor{keywordtype}{int} get\_nfs()\{}
+\DoxyCodeLine{70         \textcolor{keywordflow}{return} nfs; }
+\DoxyCodeLine{71     \}}
+\DoxyCodeLine{72     \textcolor{keywordtype}{int} get\_fs()\{}
+\DoxyCodeLine{73         \textcolor{keywordflow}{return} fs;}
+\DoxyCodeLine{74     \}}
+\DoxyCodeLine{75     \textcolor{keywordtype}{int} get\_nbs()\{}
+\DoxyCodeLine{76         \textcolor{keywordflow}{return} nbs;}
+\DoxyCodeLine{77     \}}
+\DoxyCodeLine{78     \textcolor{keywordtype}{int} get\_bs()\{}
+\DoxyCodeLine{79         \textcolor{keywordflow}{return} bs;}
+\DoxyCodeLine{80     \} }
+\DoxyCodeLine{81     \textcolor{keywordtype}{int} get\_nes()\{}
+\DoxyCodeLine{82         \textcolor{keywordflow}{return} nes;}
+\DoxyCodeLine{83     \}}
+\DoxyCodeLine{84     \textcolor{keywordtype}{int} get\_es()\{}
+\DoxyCodeLine{85         \textcolor{keywordflow}{return} es;}
+\DoxyCodeLine{86     \}}
+\DoxyCodeLine{87     }
+\DoxyCodeLine{88 \};}
+\DoxyCodeLine{89 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

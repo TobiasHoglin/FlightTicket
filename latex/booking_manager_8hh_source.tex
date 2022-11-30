@@ -1,0 +1,28 @@
+\hypertarget{booking_manager_8hh_source}{}\doxysection{booking\+Manager.\+hh}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include<list>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include<iostream>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include<cstdlib>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include<fstream>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include<sstream>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}flightManager.hh"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}Bookings.hh"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Flights.hh"{}}}
+\DoxyCodeLine{10 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#ifndef BOOKINGMANAGER}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#define BOOKINGMANAGER}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{classbooking_manager}{bookingManager}}}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16     list<Bookings *> myBookings;}
+\DoxyCodeLine{17     \textcolor{keyword}{public}:}
+\DoxyCodeLine{18     \mbox{\hyperlink{classbooking_manager}{bookingManager}}()\{\}}
+\DoxyCodeLine{19     \textcolor{keywordtype}{void} readBookings(\textcolor{keywordtype}{string} filename);}
+\DoxyCodeLine{20     list<Bookings *> get\_bookingsList();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
