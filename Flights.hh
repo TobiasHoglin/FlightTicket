@@ -5,7 +5,7 @@ using namespace std;
 
 /**
  * @brief 
- * Flightclass containong booking information.
+ * Flightclass containing booking information.
  */
 class Flights
 {
