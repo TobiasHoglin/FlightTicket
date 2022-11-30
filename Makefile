@@ -2,5 +2,5 @@ tickets: flightTickets.cpp flightManager.cpp bookingManager.cpp ticketManager.cp
 	g++ flightTickets.cpp flightManager.cpp bookingManager.cpp ticketManager.cpp -o tickets
 
 run: tickets
-	./ tickets -f flights.csv -b bookings.csv
+	./tickets -f flights.csv -b bookings.csv
 	
