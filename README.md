@@ -2,12 +2,34 @@
 Final Assignment C/C++
 ***FlighTicket.cpp***
 
+## The ticket program
+
+```
+These files will create a program that takes two arguments.
+The first argument is a file with flight information.
+The second argument is a file with booking information.
+This program should will create files with a ticket for each booking.
+```
+
+
+**Compiling the program**
+
+```
+make
+```
+
+**Example running the program:**
+```
+./main -f flights.csv -b booking.csv
+
+or
+
+make run
+```
 
 
 
-"Make" to compile all cpp files
 
-"Make run" to run will use flags f: flights.csv b: bookings.cv  
 
 Will produce tickets like following example
 ```
