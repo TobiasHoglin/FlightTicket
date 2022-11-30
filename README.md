@@ -1,7 +1,7 @@
 # final-assignment
 Final Assignment C/C++
 ```
-***FlighTicket.cpp***
+FlighTicket.cpp
 ```
 
 ## The ticket program
