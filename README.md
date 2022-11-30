@@ -51,6 +51,24 @@ Economy class
 [0][0] [0][0][0] [0][0]
 [0][0] [0][0][0] [0][0]
 ```
+## Output:
+
+The tickets should be written to files with the following filename format:
+
+```
+ticket-{bookingnumber}.txt
+```
+
+Each file should contain the following information in this format: 
+
+```
+BOOKING:{bookingnumber} 
+FLIGHT:{flight} DEPARTURE:{dep} DESTINATION: {dest} {date} {time}
+PASSENGER {firstname} {surname}
+CLASS: {seatclass}
+ROW {row} SEAT {seatnumber}
+```
+
 
 
 
