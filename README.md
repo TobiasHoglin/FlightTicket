@@ -2,7 +2,7 @@
 
 "Make" to compile all cpp files
 
-"Make run" to run vill use flags f: flights.csv b: bookings.cv  
+"Make run" to run will use flags f: flights.csv b: bookings.cv  
 
 Will produce tickets like following example
 BOOKING:1000
